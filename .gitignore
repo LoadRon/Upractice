@@ -426,3 +426,19 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+# Node / Vite
+node_modules/
+dist/
+*.local
+
+# Variables de entorno (nunca subir secretos)
+.env
+.env.*
+!.env.example
+
+# JetBrains
+.idea/
+
+# Archivos subidos en desarrollo
+backend/storage/
